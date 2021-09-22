@@ -958,142 +958,268 @@
 						</UsualGroup>
 					</ChildItems>
 				</UsualGroup>
-				<UsualGroup name="грп1" id="162">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Грп1</v8:content>
-						</v8:item>
-					</Title>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Грп1</v8:content>
-						</v8:item>
-					</ToolTip>
-					<Group>Vertical</Group>
+				<UsualGroup name="Группа3" id="180">
+					<Group>AlwaysHorizontal</Group>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
-					<ExtendedTooltip name="грп1РасширеннаяПодсказка" id="163"/>
+					<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="181"/>
 					<ChildItems>
-						<UsualGroup name="грпПРЗ" id="164">
+						<UsualGroup name="грп1" id="162">
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Грп ПРЗ</v8:content>
+									<v8:content>Грп1</v8:content>
 								</v8:item>
 							</Title>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Грп ПРЗ</v8:content>
+									<v8:content>Грп1</v8:content>
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
-							<ExtendedTooltip name="грпПРЗРасширеннаяПодсказка" id="165"/>
+							<ExtendedTooltip name="грп1РасширеннаяПодсказка" id="163"/>
 							<ChildItems>
-								<InputField name="фГарНомер" id="18">
-									<DataPath>фГарНомер</DataPath>
-									<ReadOnly>true</ReadOnly>
-									<TitleTextColor>#DCDCDC</TitleTextColor>
-									<TextColor>#DCDCDC</TextColor>
-									<ContextMenu name="фГарНомерКонтекстноеМеню" id="19"/>
-									<ExtendedTooltip name="фГарНомерРасширеннаяПодсказка" id="20"/>
-								</InputField>
-								<InputField name="фГосНомер" id="9">
-									<DataPath>фГосНомер</DataPath>
-									<ReadOnly>true</ReadOnly>
-									<TitleTextColor>#DCDCDC</TitleTextColor>
-									<TextColor>#DCDCDC</TextColor>
-									<ContextMenu name="фГосНомерКонтекстноеМеню" id="10"/>
-									<ExtendedTooltip name="фГосНомерРасширеннаяПодсказка" id="11"/>
-								</InputField>
-								<InputField name="фVIN" id="3">
-									<DataPath>фVIN</DataPath>
-									<ReadOnly>true</ReadOnly>
-									<TitleTextColor>#DCDCDC</TitleTextColor>
-									<TextColor>#DCDCDC</TextColor>
-									<ContextMenu name="фVINКонтекстноеМеню" id="4"/>
-									<ExtendedTooltip name="фVINРасширеннаяПодсказка" id="5"/>
-								</InputField>
-								<InputField name="фГодВыпуска" id="6">
-									<DataPath>фГодВыпуска</DataPath>
-									<ReadOnly>true</ReadOnly>
-									<TitleTextColor>#DCDCDC</TitleTextColor>
-									<TextColor>#DCDCDC</TextColor>
-									<ContextMenu name="фГодВыпускаКонтекстноеМеню" id="7"/>
-									<ExtendedTooltip name="фГодВыпускаРасширеннаяПодсказка" id="8"/>
-								</InputField>
-								<InputField name="фДатаВводаВЭксплуатацию" id="12">
-									<DataPath>фДатаВводаВЭксплуатацию</DataPath>
-									<ReadOnly>true</ReadOnly>
-									<TitleTextColor>#DCDCDC</TitleTextColor>
-									<TextColor>#DCDCDC</TextColor>
-									<ContextMenu name="фДатаВводаВЭксплуатациюКонтекстноеМеню" id="13"/>
-									<ExtendedTooltip name="фДатаВводаВЭксплуатациюРасширеннаяПодсказка" id="14"/>
-								</InputField>
-								<InputField name="фДатаВыбытия" id="15">
-									<DataPath>фДатаВыбытия</DataPath>
-									<ReadOnly>true</ReadOnly>
-									<TitleTextColor>#DCDCDC</TitleTextColor>
-									<TextColor>#DCDCDC</TextColor>
-									<ContextMenu name="фДатаВыбытияКонтекстноеМеню" id="16"/>
-									<ExtendedTooltip name="фДатаВыбытияРасширеннаяПодсказка" id="17"/>
-								</InputField>
+								<UsualGroup name="грпПРЗ" id="164">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Грп ПРЗ</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Грп ПРЗ</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Vertical</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="грпПРЗРасширеннаяПодсказка" id="165"/>
+									<ChildItems>
+										<InputField name="фГарНомер" id="18">
+											<DataPath>фГарНомер</DataPath>
+											<ReadOnly>true</ReadOnly>
+											<TitleTextColor>#DCDCDC</TitleTextColor>
+											<TextColor>#DCDCDC</TextColor>
+											<ContextMenu name="фГарНомерКонтекстноеМеню" id="19"/>
+											<ExtendedTooltip name="фГарНомерРасширеннаяПодсказка" id="20"/>
+										</InputField>
+										<InputField name="фГосНомер" id="9">
+											<DataPath>фГосНомер</DataPath>
+											<ReadOnly>true</ReadOnly>
+											<TitleTextColor>#DCDCDC</TitleTextColor>
+											<TextColor>#DCDCDC</TextColor>
+											<ContextMenu name="фГосНомерКонтекстноеМеню" id="10"/>
+											<ExtendedTooltip name="фГосНомерРасширеннаяПодсказка" id="11"/>
+										</InputField>
+										<InputField name="фVIN" id="3">
+											<DataPath>фVIN</DataPath>
+											<ReadOnly>true</ReadOnly>
+											<TitleTextColor>#DCDCDC</TitleTextColor>
+											<TextColor>#DCDCDC</TextColor>
+											<ContextMenu name="фVINКонтекстноеМеню" id="4"/>
+											<ExtendedTooltip name="фVINРасширеннаяПодсказка" id="5"/>
+										</InputField>
+										<InputField name="фГодВыпуска" id="6">
+											<DataPath>фГодВыпуска</DataPath>
+											<ReadOnly>true</ReadOnly>
+											<TitleTextColor>#DCDCDC</TitleTextColor>
+											<TextColor>#DCDCDC</TextColor>
+											<ContextMenu name="фГодВыпускаКонтекстноеМеню" id="7"/>
+											<ExtendedTooltip name="фГодВыпускаРасширеннаяПодсказка" id="8"/>
+										</InputField>
+										<InputField name="фДатаВводаВЭксплуатацию" id="12">
+											<DataPath>фДатаВводаВЭксплуатацию</DataPath>
+											<ReadOnly>true</ReadOnly>
+											<TitleTextColor>#DCDCDC</TitleTextColor>
+											<TextColor>#DCDCDC</TextColor>
+											<ContextMenu name="фДатаВводаВЭксплуатациюКонтекстноеМеню" id="13"/>
+											<ExtendedTooltip name="фДатаВводаВЭксплуатациюРасширеннаяПодсказка" id="14"/>
+										</InputField>
+										<InputField name="фДатаВыбытия" id="15">
+											<DataPath>фДатаВыбытия</DataPath>
+											<ReadOnly>true</ReadOnly>
+											<TitleTextColor>#DCDCDC</TitleTextColor>
+											<TextColor>#DCDCDC</TextColor>
+											<ContextMenu name="фДатаВыбытияКонтекстноеМеню" id="16"/>
+											<ExtendedTooltip name="фДатаВыбытияРасширеннаяПодсказка" id="17"/>
+										</InputField>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="грпБУХ" id="166">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Стоимость</v8:content>
+										</v8:item>
+									</Title>
+									<TitleTextColor>#FFFFFF</TitleTextColor>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Грп БУХ</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Vertical</Group>
+									<Representation>StrongSeparation</Representation>
+									<ExtendedTooltip name="грпБУХРасширеннаяПодсказка" id="167"/>
+									<ChildItems>
+										<InputField name="фСтоимостьСуммаПервоначальная" id="168">
+											<DataPath>фСтоимостьСуммаПервоначальная</DataPath>
+											<ReadOnly>true</ReadOnly>
+											<TitleTextColor>#DCDCDC</TitleTextColor>
+											<TextColor>#DCDCDC</TextColor>
+											<ContextMenu name="фСтоимостьСуммаПервоначальнаяКонтекстноеМеню" id="169"/>
+											<ExtendedTooltip name="фСтоимостьСуммаПервоначальнаяРасширеннаяПодсказка" id="170"/>
+										</InputField>
+										<InputField name="фСтоимостьСуммаОстаточная" id="171">
+											<DataPath>фСтоимостьСуммаОстаточная</DataPath>
+											<ReadOnly>true</ReadOnly>
+											<TitleTextColor>#DCDCDC</TitleTextColor>
+											<TextColor>#DCDCDC</TextColor>
+											<ContextMenu name="фСтоимостьСуммаОстаточнаяКонтекстноеМеню" id="172"/>
+											<ExtendedTooltip name="фСтоимостьСуммаОстаточнаяРасширеннаяПодсказка" id="173"/>
+										</InputField>
+										<InputField name="фСтоимостьСуммаАмортизация" id="174">
+											<DataPath>фСтоимостьСуммаАмортизация</DataPath>
+											<ReadOnly>true</ReadOnly>
+											<TitleTextColor>#DCDCDC</TitleTextColor>
+											<TextColor>#DCDCDC</TextColor>
+											<ContextMenu name="фСтоимостьСуммаАмортизацияКонтекстноеМеню" id="175"/>
+											<ExtendedTooltip name="фСтоимостьСуммаАмортизацияРасширеннаяПодсказка" id="176"/>
+										</InputField>
+										<InputField name="фСтоимостьДата" id="177">
+											<DataPath>фСтоимостьДата</DataPath>
+											<ReadOnly>true</ReadOnly>
+											<TitleTextColor>#DCDCDC</TitleTextColor>
+											<TextColor>#DCDCDC</TextColor>
+											<ContextMenu name="фСтоимостьДатаКонтекстноеМеню" id="178"/>
+											<ExtendedTooltip name="фСтоимостьДатаРасширеннаяПодсказка" id="179"/>
+										</InputField>
+									</ChildItems>
+								</UsualGroup>
 							</ChildItems>
 						</UsualGroup>
-						<UsualGroup name="грпБУХ" id="166">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Стоимость</v8:content>
-								</v8:item>
-							</Title>
-							<TitleTextColor>#FFFFFF</TitleTextColor>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Грп БУХ</v8:content>
-								</v8:item>
-							</ToolTip>
-							<Group>Vertical</Group>
-							<Representation>StrongSeparation</Representation>
-							<ExtendedTooltip name="грпБУХРасширеннаяПодсказка" id="167"/>
+						<UsualGroup name="Группа4" id="182">
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="183"/>
 							<ChildItems>
-								<InputField name="фСтоимостьСуммаПервоначальная" id="168">
-									<DataPath>фСтоимостьСуммаПервоначальная</DataPath>
-									<ReadOnly>true</ReadOnly>
+								<Table name="фТаблицаДокументов" id="184">
+									<Representation>List</Representation>
+									<TitleLocation>Top</TitleLocation>
+									<AutoInsertNewRow>true</AutoInsertNewRow>
+									<EnableStartDrag>true</EnableStartDrag>
+									<EnableDrag>true</EnableDrag>
+									<DataPath>фТаблицаДокументов</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Документы ТС</v8:content>
+										</v8:item>
+									</Title>
 									<TitleTextColor>#DCDCDC</TitleTextColor>
-									<TextColor>#DCDCDC</TextColor>
-									<ContextMenu name="фСтоимостьСуммаПервоначальнаяКонтекстноеМеню" id="169"/>
-									<ExtendedTooltip name="фСтоимостьСуммаПервоначальнаяРасширеннаяПодсказка" id="170"/>
-								</InputField>
-								<InputField name="фСтоимостьСуммаОстаточная" id="171">
-									<DataPath>фСтоимостьСуммаОстаточная</DataPath>
-									<ReadOnly>true</ReadOnly>
-									<TitleTextColor>#DCDCDC</TitleTextColor>
-									<TextColor>#DCDCDC</TextColor>
-									<ContextMenu name="фСтоимостьСуммаОстаточнаяКонтекстноеМеню" id="172"/>
-									<ExtendedTooltip name="фСтоимостьСуммаОстаточнаяРасширеннаяПодсказка" id="173"/>
-								</InputField>
-								<InputField name="фСтоимостьСуммаАмортизация" id="174">
-									<DataPath>фСтоимостьСуммаАмортизация</DataPath>
-									<ReadOnly>true</ReadOnly>
-									<TitleTextColor>#DCDCDC</TitleTextColor>
-									<TextColor>#DCDCDC</TextColor>
-									<ContextMenu name="фСтоимостьСуммаАмортизацияКонтекстноеМеню" id="175"/>
-									<ExtendedTooltip name="фСтоимостьСуммаАмортизацияРасширеннаяПодсказка" id="176"/>
-								</InputField>
-								<InputField name="фСтоимостьДата" id="177">
-									<DataPath>фСтоимостьДата</DataPath>
-									<ReadOnly>true</ReadOnly>
-									<TitleTextColor>#DCDCDC</TitleTextColor>
-									<TextColor>#DCDCDC</TextColor>
-									<ContextMenu name="фСтоимостьДатаКонтекстноеМеню" id="178"/>
-									<ExtendedTooltip name="фСтоимостьДатаРасширеннаяПодсказка" id="179"/>
-								</InputField>
+									<RowFilter xsi:nil="true"/>
+									<ContextMenu name="фТаблицаДокументовКонтекстноеМеню" id="185"/>
+									<AutoCommandBar name="фТаблицаДокументовКоманднаяПанель" id="186">
+										<Autofill>false</Autofill>
+									</AutoCommandBar>
+									<ExtendedTooltip name="фТаблицаДокументовРасширеннаяПодсказка" id="187"/>
+									<SearchStringAddition name="фТаблицаДокументовСтрокаПоиска" id="188">
+										<AdditionSource>
+											<Item>фТаблицаДокументов</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="фТаблицаДокументовСтрокаПоискаКонтекстноеМеню" id="189"/>
+										<ExtendedTooltip name="фТаблицаДокументовСтрокаПоискаРасширеннаяПодсказка" id="190"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="фТаблицаДокументовСостояниеПросмотра" id="191">
+										<AdditionSource>
+											<Item>фТаблицаДокументов</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="фТаблицаДокументовСостояниеПросмотраКонтекстноеМеню" id="192"/>
+										<ExtendedTooltip name="фТаблицаДокументовСостояниеПросмотраРасширеннаяПодсказка" id="193"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="фТаблицаДокументовУправлениеПоиском" id="194">
+										<AdditionSource>
+											<Item>фТаблицаДокументов</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="фТаблицаДокументовУправлениеПоискомКонтекстноеМеню" id="195"/>
+										<ExtendedTooltip name="фТаблицаДокументовУправлениеПоискомРасширеннаяПодсказка" id="196"/>
+									</SearchControlAddition>
+									<Events>
+										<Event name="Selection">фТаблицаДокументовВыбор</Event>
+									</Events>
+									<ChildItems>
+										<InputField name="фТаблицаДокументовВидДокумента" id="197">
+											<DataPath>фТаблицаДокументов.ВидДокумента</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="фТаблицаДокументовВидДокументаКонтекстноеМеню" id="198"/>
+											<ExtendedTooltip name="фТаблицаДокументовВидДокументаРасширеннаяПодсказка" id="199"/>
+										</InputField>
+										<PictureField name="фТаблицаДокументовИндексКартинки" id="218">
+											<DataPath>фТаблицаДокументов.ИндексКартинки</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Скан</v8:content>
+												</v8:item>
+											</Title>
+											<TitleLocation>None</TitleLocation>
+											<EditMode>EnterOnInput</EditMode>
+											<ValuesPicture>
+												<xr:Ref>StdPicture.Picture</xr:Ref>
+												<xr:LoadTransparent>true</xr:LoadTransparent>
+											</ValuesPicture>
+											<ContextMenu name="фТаблицаДокументовИндексКартинкиКонтекстноеМеню" id="219"/>
+											<ExtendedTooltip name="фТаблицаДокументовИндексКартинкиРасширеннаяПодсказка" id="220"/>
+										</PictureField>
+										<InputField name="фТаблицаДокументовСерия" id="200">
+											<DataPath>фТаблицаДокументов.Серия</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="фТаблицаДокументовСерияКонтекстноеМеню" id="201"/>
+											<ExtendedTooltip name="фТаблицаДокументовСерияРасширеннаяПодсказка" id="202"/>
+										</InputField>
+										<InputField name="фТаблицаДокументовНомер" id="203">
+											<DataPath>фТаблицаДокументов.Номер</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="фТаблицаДокументовНомерКонтекстноеМеню" id="204"/>
+											<ExtendedTooltip name="фТаблицаДокументовНомерРасширеннаяПодсказка" id="205"/>
+										</InputField>
+										<InputField name="фТаблицаДокументовДатаВыдачи" id="206">
+											<DataPath>фТаблицаДокументов.ДатаВыдачи</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="фТаблицаДокументовДатаВыдачиКонтекстноеМеню" id="207"/>
+											<ExtendedTooltip name="фТаблицаДокументовДатаВыдачиРасширеннаяПодсказка" id="208"/>
+										</InputField>
+										<InputField name="фТаблицаДокументовДатаОкончания" id="209">
+											<DataPath>фТаблицаДокументов.ДатаОкончания</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="фТаблицаДокументовДатаОкончанияКонтекстноеМеню" id="210"/>
+											<ExtendedTooltip name="фТаблицаДокументовДатаОкончанияРасширеннаяПодсказка" id="211"/>
+										</InputField>
+										<InputField name="фТаблицаДокументовСкан" id="212">
+											<DataPath>фТаблицаДокументов.Скан</DataPath>
+											<Visible>false</Visible>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="фТаблицаДокументовСканКонтекстноеМеню" id="213"/>
+											<ExtendedTooltip name="фТаблицаДокументовСканРасширеннаяПодсказка" id="214"/>
+										</InputField>
+										<InputField name="фТаблицаДокументовПолноеИмяФайла" id="215">
+											<DataPath>фТаблицаДокументов.ПолноеИмяФайла</DataPath>
+											<Visible>false</Visible>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="фТаблицаДокументовПолноеИмяФайлаКонтекстноеМеню" id="216"/>
+											<ExtendedTooltip name="фТаблицаДокументовПолноеИмяФайлаРасширеннаяПодсказка" id="217"/>
+										</InputField>
+									</ChildItems>
+								</Table>
 							</ChildItems>
 						</UsualGroup>
 					</ChildItems>
@@ -1462,6 +1588,138 @@
 					<v8:DateFractions>Date</v8:DateFractions>
 				</v8:DateQualifiers>
 			</Type>
+		</Attribute>
+		<Attribute name="фТаблицаДокументов" id="17">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ф таблица документов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="ВидДокумента" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вид документа</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Серия" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Серия</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Номер" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номер</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ДатаВыдачи" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата выдачи</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Column>
+				<Column name="ДатаОкончания" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата окончания</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Column>
+				<Column name="Скан" id="6">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Скан</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ПолноеИмяФайла" id="7">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Полное имя файла</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ИндексКартинки" id="8">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Индекс картинки</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>0</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+			</Columns>
 		</Attribute>
 	</Attributes>
 	<Commands>
