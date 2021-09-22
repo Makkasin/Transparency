@@ -987,9 +987,10 @@
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Грп ПРЗ</v8:content>
+											<v8:content>Технические характеристики</v8:content>
 										</v8:item>
 									</Title>
+									<TitleTextColor>#FFFFFF</TitleTextColor>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -997,8 +998,7 @@
 										</v8:item>
 									</ToolTip>
 									<Group>Vertical</Group>
-									<Representation>None</Representation>
-									<ShowTitle>false</ShowTitle>
+									<Representation>StrongSeparation</Representation>
 									<ExtendedTooltip name="грпПРЗРасширеннаяПодсказка" id="165"/>
 									<ChildItems>
 										<InputField name="фГарНомер" id="18">
@@ -1103,34 +1103,7 @@
 										</InputField>
 									</ChildItems>
 								</UsualGroup>
-							</ChildItems>
-						</UsualGroup>
-						<UsualGroup name="ГруппаДокументы" id="182">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Документы ТС</v8:content>
-								</v8:item>
-							</Title>
-							<TitleTextColor>#DCDCDC</TitleTextColor>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Группа документы</v8:content>
-								</v8:item>
-							</ToolTip>
-							<Group>Vertical</Group>
-							<Representation>None</Representation>
-							<ExtendedTooltip name="ГруппаДокументыРасширеннаяПодсказка" id="183"/>
-							<ChildItems>
-								<Table name="фТаблицаДокументов" id="184">
-									<Representation>List</Representation>
-									<Visible>false</Visible>
-									<TitleLocation>Top</TitleLocation>
-									<AutoInsertNewRow>true</AutoInsertNewRow>
-									<EnableStartDrag>true</EnableStartDrag>
-									<EnableDrag>true</EnableDrag>
-									<DataPath>фТаблицаДокументов</DataPath>
+								<UsualGroup name="ГруппаДокументы" id="182">
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -1138,103 +1111,130 @@
 										</v8:item>
 									</Title>
 									<TitleTextColor>#DCDCDC</TitleTextColor>
-									<RowFilter xsi:nil="true"/>
-									<ContextMenu name="фТаблицаДокументовКонтекстноеМеню" id="185"/>
-									<AutoCommandBar name="фТаблицаДокументовКоманднаяПанель" id="186">
-										<Autofill>false</Autofill>
-									</AutoCommandBar>
-									<ExtendedTooltip name="фТаблицаДокументовРасширеннаяПодсказка" id="187"/>
-									<SearchStringAddition name="фТаблицаДокументовСтрокаПоиска" id="188">
-										<AdditionSource>
-											<Item>фТаблицаДокументов</Item>
-											<Type>SearchStringRepresentation</Type>
-										</AdditionSource>
-										<ContextMenu name="фТаблицаДокументовСтрокаПоискаКонтекстноеМеню" id="189"/>
-										<ExtendedTooltip name="фТаблицаДокументовСтрокаПоискаРасширеннаяПодсказка" id="190"/>
-									</SearchStringAddition>
-									<ViewStatusAddition name="фТаблицаДокументовСостояниеПросмотра" id="191">
-										<AdditionSource>
-											<Item>фТаблицаДокументов</Item>
-											<Type>ViewStatusRepresentation</Type>
-										</AdditionSource>
-										<ContextMenu name="фТаблицаДокументовСостояниеПросмотраКонтекстноеМеню" id="192"/>
-										<ExtendedTooltip name="фТаблицаДокументовСостояниеПросмотраРасширеннаяПодсказка" id="193"/>
-									</ViewStatusAddition>
-									<SearchControlAddition name="фТаблицаДокументовУправлениеПоиском" id="194">
-										<AdditionSource>
-											<Item>фТаблицаДокументов</Item>
-											<Type>SearchControl</Type>
-										</AdditionSource>
-										<ContextMenu name="фТаблицаДокументовУправлениеПоискомКонтекстноеМеню" id="195"/>
-										<ExtendedTooltip name="фТаблицаДокументовУправлениеПоискомРасширеннаяПодсказка" id="196"/>
-									</SearchControlAddition>
-									<Events>
-										<Event name="Selection">фТаблицаДокументовВыбор</Event>
-									</Events>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа документы</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Vertical</Group>
+									<Representation>StrongSeparation</Representation>
+									<ExtendedTooltip name="ГруппаДокументыРасширеннаяПодсказка" id="183"/>
 									<ChildItems>
-										<InputField name="фТаблицаДокументовВидДокумента" id="197">
-											<DataPath>фТаблицаДокументов.ВидДокумента</DataPath>
-											<EditMode>EnterOnInput</EditMode>
-											<ContextMenu name="фТаблицаДокументовВидДокументаКонтекстноеМеню" id="198"/>
-											<ExtendedTooltip name="фТаблицаДокументовВидДокументаРасширеннаяПодсказка" id="199"/>
-										</InputField>
-										<PictureField name="фТаблицаДокументовИндексКартинки" id="218">
-											<DataPath>фТаблицаДокументов.ИндексКартинки</DataPath>
+										<Table name="фТаблицаДокументов" id="184">
+											<Representation>List</Representation>
+											<Visible>false</Visible>
+											<TitleLocation>Top</TitleLocation>
+											<AutoInsertNewRow>true</AutoInsertNewRow>
+											<EnableStartDrag>true</EnableStartDrag>
+											<EnableDrag>true</EnableDrag>
+											<DataPath>фТаблицаДокументов</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Скан</v8:content>
+													<v8:content>Документы ТС</v8:content>
 												</v8:item>
 											</Title>
-											<TitleLocation>None</TitleLocation>
-											<EditMode>EnterOnInput</EditMode>
-											<ValuesPicture>
-												<xr:Ref>StdPicture.Picture</xr:Ref>
-												<xr:LoadTransparent>true</xr:LoadTransparent>
-											</ValuesPicture>
-											<ContextMenu name="фТаблицаДокументовИндексКартинкиКонтекстноеМеню" id="219"/>
-											<ExtendedTooltip name="фТаблицаДокументовИндексКартинкиРасширеннаяПодсказка" id="220"/>
-										</PictureField>
-										<InputField name="фТаблицаДокументовСерия" id="200">
-											<DataPath>фТаблицаДокументов.Серия</DataPath>
-											<EditMode>EnterOnInput</EditMode>
-											<ContextMenu name="фТаблицаДокументовСерияКонтекстноеМеню" id="201"/>
-											<ExtendedTooltip name="фТаблицаДокументовСерияРасширеннаяПодсказка" id="202"/>
-										</InputField>
-										<InputField name="фТаблицаДокументовНомер" id="203">
-											<DataPath>фТаблицаДокументов.Номер</DataPath>
-											<EditMode>EnterOnInput</EditMode>
-											<ContextMenu name="фТаблицаДокументовНомерКонтекстноеМеню" id="204"/>
-											<ExtendedTooltip name="фТаблицаДокументовНомерРасширеннаяПодсказка" id="205"/>
-										</InputField>
-										<InputField name="фТаблицаДокументовДатаВыдачи" id="206">
-											<DataPath>фТаблицаДокументов.ДатаВыдачи</DataPath>
-											<EditMode>EnterOnInput</EditMode>
-											<ContextMenu name="фТаблицаДокументовДатаВыдачиКонтекстноеМеню" id="207"/>
-											<ExtendedTooltip name="фТаблицаДокументовДатаВыдачиРасширеннаяПодсказка" id="208"/>
-										</InputField>
-										<InputField name="фТаблицаДокументовДатаОкончания" id="209">
-											<DataPath>фТаблицаДокументов.ДатаОкончания</DataPath>
-											<EditMode>EnterOnInput</EditMode>
-											<ContextMenu name="фТаблицаДокументовДатаОкончанияКонтекстноеМеню" id="210"/>
-											<ExtendedTooltip name="фТаблицаДокументовДатаОкончанияРасширеннаяПодсказка" id="211"/>
-										</InputField>
-										<InputField name="фТаблицаДокументовСкан" id="212">
-											<DataPath>фТаблицаДокументов.Скан</DataPath>
-											<Visible>false</Visible>
-											<EditMode>EnterOnInput</EditMode>
-											<ContextMenu name="фТаблицаДокументовСканКонтекстноеМеню" id="213"/>
-											<ExtendedTooltip name="фТаблицаДокументовСканРасширеннаяПодсказка" id="214"/>
-										</InputField>
-										<InputField name="фТаблицаДокументовПолноеИмяФайла" id="215">
-											<DataPath>фТаблицаДокументов.ПолноеИмяФайла</DataPath>
-											<Visible>false</Visible>
-											<EditMode>EnterOnInput</EditMode>
-											<ContextMenu name="фТаблицаДокументовПолноеИмяФайлаКонтекстноеМеню" id="216"/>
-											<ExtendedTooltip name="фТаблицаДокументовПолноеИмяФайлаРасширеннаяПодсказка" id="217"/>
-										</InputField>
+											<TitleTextColor>#DCDCDC</TitleTextColor>
+											<RowFilter xsi:nil="true"/>
+											<ContextMenu name="фТаблицаДокументовКонтекстноеМеню" id="185"/>
+											<AutoCommandBar name="фТаблицаДокументовКоманднаяПанель" id="186">
+												<Autofill>false</Autofill>
+											</AutoCommandBar>
+											<ExtendedTooltip name="фТаблицаДокументовРасширеннаяПодсказка" id="187"/>
+											<SearchStringAddition name="фТаблицаДокументовСтрокаПоиска" id="188">
+												<AdditionSource>
+													<Item>фТаблицаДокументов</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="фТаблицаДокументовСтрокаПоискаКонтекстноеМеню" id="189"/>
+												<ExtendedTooltip name="фТаблицаДокументовСтрокаПоискаРасширеннаяПодсказка" id="190"/>
+											</SearchStringAddition>
+											<ViewStatusAddition name="фТаблицаДокументовСостояниеПросмотра" id="191">
+												<AdditionSource>
+													<Item>фТаблицаДокументов</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="фТаблицаДокументовСостояниеПросмотраКонтекстноеМеню" id="192"/>
+												<ExtendedTooltip name="фТаблицаДокументовСостояниеПросмотраРасширеннаяПодсказка" id="193"/>
+											</ViewStatusAddition>
+											<SearchControlAddition name="фТаблицаДокументовУправлениеПоиском" id="194">
+												<AdditionSource>
+													<Item>фТаблицаДокументов</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
+												<ContextMenu name="фТаблицаДокументовУправлениеПоискомКонтекстноеМеню" id="195"/>
+												<ExtendedTooltip name="фТаблицаДокументовУправлениеПоискомРасширеннаяПодсказка" id="196"/>
+											</SearchControlAddition>
+											<Events>
+												<Event name="Selection">фТаблицаДокументовВыбор</Event>
+											</Events>
+											<ChildItems>
+												<InputField name="фТаблицаДокументовВидДокумента" id="197">
+													<DataPath>фТаблицаДокументов.ВидДокумента</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="фТаблицаДокументовВидДокументаКонтекстноеМеню" id="198"/>
+													<ExtendedTooltip name="фТаблицаДокументовВидДокументаРасширеннаяПодсказка" id="199"/>
+												</InputField>
+												<PictureField name="фТаблицаДокументовИндексКартинки" id="218">
+													<DataPath>фТаблицаДокументов.ИндексКартинки</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Скан</v8:content>
+														</v8:item>
+													</Title>
+													<TitleLocation>None</TitleLocation>
+													<EditMode>EnterOnInput</EditMode>
+													<ValuesPicture>
+														<xr:Ref>StdPicture.Picture</xr:Ref>
+														<xr:LoadTransparent>true</xr:LoadTransparent>
+													</ValuesPicture>
+													<ContextMenu name="фТаблицаДокументовИндексКартинкиКонтекстноеМеню" id="219"/>
+													<ExtendedTooltip name="фТаблицаДокументовИндексКартинкиРасширеннаяПодсказка" id="220"/>
+												</PictureField>
+												<InputField name="фТаблицаДокументовСерия" id="200">
+													<DataPath>фТаблицаДокументов.Серия</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="фТаблицаДокументовСерияКонтекстноеМеню" id="201"/>
+													<ExtendedTooltip name="фТаблицаДокументовСерияРасширеннаяПодсказка" id="202"/>
+												</InputField>
+												<InputField name="фТаблицаДокументовНомер" id="203">
+													<DataPath>фТаблицаДокументов.Номер</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="фТаблицаДокументовНомерКонтекстноеМеню" id="204"/>
+													<ExtendedTooltip name="фТаблицаДокументовНомерРасширеннаяПодсказка" id="205"/>
+												</InputField>
+												<InputField name="фТаблицаДокументовДатаВыдачи" id="206">
+													<DataPath>фТаблицаДокументов.ДатаВыдачи</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="фТаблицаДокументовДатаВыдачиКонтекстноеМеню" id="207"/>
+													<ExtendedTooltip name="фТаблицаДокументовДатаВыдачиРасширеннаяПодсказка" id="208"/>
+												</InputField>
+												<InputField name="фТаблицаДокументовДатаОкончания" id="209">
+													<DataPath>фТаблицаДокументов.ДатаОкончания</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="фТаблицаДокументовДатаОкончанияКонтекстноеМеню" id="210"/>
+													<ExtendedTooltip name="фТаблицаДокументовДатаОкончанияРасширеннаяПодсказка" id="211"/>
+												</InputField>
+												<InputField name="фТаблицаДокументовСкан" id="212">
+													<DataPath>фТаблицаДокументов.Скан</DataPath>
+													<Visible>false</Visible>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="фТаблицаДокументовСканКонтекстноеМеню" id="213"/>
+													<ExtendedTooltip name="фТаблицаДокументовСканРасширеннаяПодсказка" id="214"/>
+												</InputField>
+												<InputField name="фТаблицаДокументовПолноеИмяФайла" id="215">
+													<DataPath>фТаблицаДокументов.ПолноеИмяФайла</DataPath>
+													<Visible>false</Visible>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="фТаблицаДокументовПолноеИмяФайлаКонтекстноеМеню" id="216"/>
+													<ExtendedTooltip name="фТаблицаДокументовПолноеИмяФайлаРасширеннаяПодсказка" id="217"/>
+												</InputField>
+											</ChildItems>
+										</Table>
 									</ChildItems>
-								</Table>
+								</UsualGroup>
 							</ChildItems>
 						</UsualGroup>
 					</ChildItems>
