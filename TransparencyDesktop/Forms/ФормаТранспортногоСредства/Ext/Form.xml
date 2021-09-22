@@ -983,6 +983,16 @@
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="грп1РасширеннаяПодсказка" id="163"/>
 							<ChildItems>
+								<LabelField name="фТС" id="221">
+									<DataPath>фТС</DataPath>
+									<TitleTextColor>#FFFFFF</TitleTextColor>
+									<TitleLocation>None</TitleLocation>
+									<HorizontalAlign>Center</HorizontalAlign>
+									<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+									<TextColor>#FFFFFF</TextColor>
+									<ContextMenu name="фТСКонтекстноеМеню" id="222"/>
+									<ExtendedTooltip name="фТСРасширеннаяПодсказка" id="223"/>
+								</LabelField>
 								<UsualGroup name="грпПРЗ" id="164">
 									<Title>
 										<v8:item>
