@@ -73,7 +73,7 @@
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаКнопкиСлеваРасширеннаяПодсказка" id="804"/>
 					<ChildItems>
-						<UsualGroup name="ГруппаГ9" id="805">
+						<UsualGroup name="ГруппаГ999" id="805">
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -101,7 +101,7 @@
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<BackColor>#31597B</BackColor>
-							<ExtendedTooltip name="ГруппаГ9РасширеннаяПодсказка" id="806"/>
+							<ExtendedTooltip name="ГруппаГ999РасширеннаяПодсказка" id="806"/>
 							<ChildItems>
 								<UsualGroup name="ГруппаВ30" id="807">
 									<Title>
@@ -642,7 +642,7 @@
 									<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="1176"/>
 									<ChildItems>
 										<UsualGroup name="Группа4" id="1186">
-											<Group>AlwaysHorizontal</Group>
+											<Group>Horizontal</Group>
 											<HorizontalSpacing>OneAndHalf</HorizontalSpacing>
 											<VerticalSpacing>OneAndHalf</VerticalSpacing>
 											<Representation>None</Representation>
@@ -742,7 +742,7 @@
 													</ToolTip>
 													<GroupHorizontalAlign>Center</GroupHorizontalAlign>
 													<GroupVerticalAlign>Center</GroupVerticalAlign>
-													<Group>AlwaysHorizontal</Group>
+													<Group>Horizontal</Group>
 													<HorizontalSpacing>None</HorizontalSpacing>
 													<VerticalSpacing>None</VerticalSpacing>
 													<HorizontalAlign>Center</HorizontalAlign>
@@ -1548,6 +1548,21 @@
 						</v8:StringQualifiers>
 					</Type>
 				</Column>
+				<Column name="ВнутреннийАдресБух" id="9">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Внутренний адрес бух</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
 			</Columns>
 		</Attribute>
 		<Attribute name="тблДата" id="13">
@@ -1891,6 +1906,21 @@
 						</v8:StringQualifiers>
 					</Type>
 				</Column>
+				<Column name="ВнутреннийАдресБух" id="23">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Внутренний адрес бух</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
 			</Columns>
 		</Attribute>
 		<Attribute name="СтрКолонокТблДата" id="14">
@@ -1898,6 +1928,21 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Стр колонок тбл дата</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="фРодительВторогоУровня" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ф родитель второго уровня</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1950,6 +1995,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Выход</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ФильтрПереключить" id="4">
 			<Title>
@@ -1959,6 +2005,7 @@
 				</v8:item>
 			</Title>
 			<Action>ФильтрПереключить</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="Назад" id="5">
 			<Title>
@@ -1974,6 +2021,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Назад</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ОткрытьТипыТС" id="6">
 			<Title>
@@ -1989,6 +2037,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ОткрытьТипыТС</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="Перезапуск" id="7">
 			<Title>
@@ -2004,6 +2053,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Перезапуск</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ФильтрУказатьПростой" id="8">
 			<Title>
@@ -2019,6 +2069,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ФильтрУказатьПростой</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="СбросФильтров" id="9">
 			<Title>
@@ -2034,6 +2085,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>СбросФильтров</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
 </Form>
