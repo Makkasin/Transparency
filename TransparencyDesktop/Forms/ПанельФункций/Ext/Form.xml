@@ -1145,24 +1145,6 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 		</Attribute>
-		<Attribute name="фСоответствиеИменФорм" id="2">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Ф соответствие имен форм</v8:content>
-				</v8:item>
-			</Title>
-			<Type/>
-		</Attribute>
-		<Attribute name="фСоответствиеТиповРодителямВерхнегоУровня" id="3">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Ф соответствие типов родителям верхнего уровня</v8:content>
-				</v8:item>
-			</Title>
-			<Type/>
-		</Attribute>
 		<Attribute name="фТабличныйДокумент" id="5">
 			<Title>
 				<v8:item>
@@ -1188,134 +1170,14 @@
 				</mxl:columns>
 				<mxl:rowsItem>
 					<mxl:index>0</mxl:index>
-					<mxl:indexTo>2</mxl:indexTo>
+					<mxl:indexTo>10</mxl:indexTo>
 					<mxl:row>
 						<mxl:empty>true</mxl:empty>
 					</mxl:row>
 				</mxl:rowsItem>
-				<mxl:rowsItem>
-					<mxl:index>3</mxl:index>
-					<mxl:row>
-						<mxl:c>
-							<mxl:i>1</mxl:i>
-							<mxl:c>
-								<mxl:f>1</mxl:f>
-								<mxl:tl>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>фыв</v8:content>
-									</v8:item>
-								</mxl:tl>
-							</mxl:c>
-						</mxl:c>
-					</mxl:row>
-				</mxl:rowsItem>
-				<mxl:rowsItem>
-					<mxl:index>4</mxl:index>
-					<mxl:row>
-						<mxl:c>
-							<mxl:i>5</mxl:i>
-							<mxl:c>
-								<mxl:f>0</mxl:f>
-								<mxl:tl>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>фыва</v8:content>
-									</v8:item>
-								</mxl:tl>
-							</mxl:c>
-						</mxl:c>
-					</mxl:row>
-				</mxl:rowsItem>
-				<mxl:rowsItem>
-					<mxl:index>5</mxl:index>
-					<mxl:row>
-						<mxl:c>
-							<mxl:i>2</mxl:i>
-							<mxl:c>
-								<mxl:f>0</mxl:f>
-								<mxl:tl>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>ва</v8:content>
-									</v8:item>
-								</mxl:tl>
-							</mxl:c>
-						</mxl:c>
-					</mxl:row>
-				</mxl:rowsItem>
-				<mxl:rowsItem>
-					<mxl:index>6</mxl:index>
-					<mxl:row>
-						<mxl:empty>true</mxl:empty>
-					</mxl:row>
-				</mxl:rowsItem>
-				<mxl:rowsItem>
-					<mxl:index>7</mxl:index>
-					<mxl:row>
-						<mxl:c>
-							<mxl:i>1</mxl:i>
-							<mxl:c>
-								<mxl:f>0</mxl:f>
-								<mxl:tl>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>а</v8:content>
-									</v8:item>
-								</mxl:tl>
-							</mxl:c>
-						</mxl:c>
-					</mxl:row>
-				</mxl:rowsItem>
-				<mxl:rowsItem>
-					<mxl:index>8</mxl:index>
-					<mxl:row>
-						<mxl:empty>true</mxl:empty>
-					</mxl:row>
-				</mxl:rowsItem>
-				<mxl:rowsItem>
-					<mxl:index>9</mxl:index>
-					<mxl:row>
-						<mxl:c>
-							<mxl:i>2</mxl:i>
-							<mxl:c>
-								<mxl:f>0</mxl:f>
-								<mxl:tl>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>ыва</v8:content>
-									</v8:item>
-								</mxl:tl>
-							</mxl:c>
-						</mxl:c>
-					</mxl:row>
-				</mxl:rowsItem>
-				<mxl:rowsItem>
-					<mxl:index>10</mxl:index>
-					<mxl:row>
-						<mxl:c>
-							<mxl:i>4</mxl:i>
-							<mxl:c>
-								<mxl:f>0</mxl:f>
-								<mxl:tl>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>фыва</v8:content>
-									</v8:item>
-								</mxl:tl>
-							</mxl:c>
-						</mxl:c>
-					</mxl:row>
-				</mxl:rowsItem>
-				<mxl:defaultFormatIndex>2</mxl:defaultFormatIndex>
+				<mxl:defaultFormatIndex>1</mxl:defaultFormatIndex>
 				<mxl:height>11</mxl:height>
 				<mxl:vgRows>11</mxl:vgRows>
-				<mxl:line width="1" gap="false">
-					<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
-				</mxl:line>
-				<mxl:format>
-					<mxl:border>0</mxl:border>
-				</mxl:format>
 				<mxl:format>
 					<mxl:borderColor>#FFFFFF</mxl:borderColor>
 					<mxl:width>72</mxl:width>
