@@ -1083,6 +1083,14 @@
 													<ContextMenu name="фДатаВводаВЭксплуатациюКонтекстноеМеню" id="13"/>
 													<ExtendedTooltip name="фДатаВводаВЭксплуатациюРасширеннаяПодсказка" id="14"/>
 												</InputField>
+												<InputField name="фПробег" id="232">
+													<DataPath>фПробег</DataPath>
+													<ReadOnly>true</ReadOnly>
+													<TitleTextColor>#DCDCDC</TitleTextColor>
+													<TextColor>#DCDCDC</TextColor>
+													<ContextMenu name="фПробегКонтекстноеМеню" id="233"/>
+													<ExtendedTooltip name="фПробегРасширеннаяПодсказка" id="234"/>
+												</InputField>
 												<InputField name="фДатаВыбытия" id="15">
 													<DataPath>фДатаВыбытия</DataPath>
 													<ReadOnly>true</ReadOnly>
@@ -1796,6 +1804,22 @@
 					<v8:Length>0</v8:Length>
 					<v8:AllowedLength>Variable</v8:AllowedLength>
 				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="фПробег" id="19">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пробег</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
 			</Type>
 		</Attribute>
 	</Attributes>
