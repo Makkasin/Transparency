@@ -46,7 +46,6 @@
 			<VerticalSpacing>None</VerticalSpacing>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
-			<BackColor>#F7F7DE</BackColor>
 			<ExtendedTooltip name="ГруппаГГГРасширеннаяПодсказка" id="405"/>
 			<ChildItems>
 				<UsualGroup name="ГруппаКнопкиСлева" id="803">
@@ -156,8 +155,8 @@
 													<Height>2</Height>
 													<MaxHeight>3</MaxHeight>
 													<CommandName>Form.Command.ОткрытьТипыТС</CommandName>
-													<BackColor>web:PaleTurquoise</BackColor>
-													<Font ref="style:NormalTextFont" faceName="Segoe UI Semibold" height="12" bold="false" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+													<BackColor>web:PaleGoldenrod</BackColor>
+													<Font ref="style:NormalTextFont" faceName="Segoe UI Semibold" height="12" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -169,7 +168,7 @@
 													<ExtendedTooltip name="юкЛот41РасширеннаяПодсказка" id="1134"/>
 												</Button>
 												<LabelDecoration name="Декорация14" id="1135">
-													<Font ref="style:NormalTextFont" faceName="Segoe UI Light" height="10" bold="false" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+													<Font ref="style:NormalTextFont" faceName="Segoe UI Light" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 													<Title formatted="false">
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -232,8 +231,8 @@
 													<Height>2</Height>
 													<MaxHeight>3</MaxHeight>
 													<CommandName>Form.Command.ОтчетПоАварийным</CommandName>
-													<BackColor>web:PaleTurquoise</BackColor>
-													<Font ref="style:NormalTextFont" faceName="Segoe UI Semibold" height="12" bold="false" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+													<BackColor>web:PaleGoldenrod</BackColor>
+													<Font ref="style:NormalTextFont" faceName="Segoe UI Semibold" height="12" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -245,7 +244,7 @@
 													<ExtendedTooltip name="юкЛот42РасширеннаяПодсказка" id="1141"/>
 												</Button>
 												<LabelDecoration name="Декорация15" id="1142">
-													<Font ref="style:NormalTextFont" faceName="Segoe UI Light" height="10" bold="false" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+													<Font ref="style:NormalTextFont" faceName="Segoe UI Light" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 													<Title formatted="false">
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -291,8 +290,8 @@
 													<Height>2</Height>
 													<MaxHeight>3</MaxHeight>
 													<CommandName>Form.Command.Назад</CommandName>
-													<BackColor>web:PaleTurquoise</BackColor>
-													<Font ref="style:NormalTextFont" faceName="Segoe UI Semibold" height="12" bold="false" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+													<BackColor>web:PaleGoldenrod</BackColor>
+													<Font ref="style:NormalTextFont" faceName="Segoe UI Semibold" height="12" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 													<Picture>
 														<xr:Abs>Picture.png</xr:Abs>
 														<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -309,7 +308,7 @@
 													<ExtendedTooltip name="юкЛот40РасширеннаяПодсказка" id="816"/>
 												</Button>
 												<LabelDecoration name="Декорация6" id="830">
-													<Font ref="style:NormalTextFont" faceName="Segoe UI Light" height="10" bold="false" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+													<Font ref="style:NormalTextFont" faceName="Segoe UI Light" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 													<Title formatted="false">
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -372,7 +371,7 @@
 													<Height>2</Height>
 													<MaxHeight>3</MaxHeight>
 													<CommandName>Form.Command.ФильтрПереключить</CommandName>
-													<BackColor>web:Gainsboro</BackColor>
+													<BackColor>web:PaleGoldenrod</BackColor>
 													<Font ref="style:NormalTextFont" faceName="Segoe UI Semibold" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 													<Title>
 														<v8:item>
@@ -386,7 +385,7 @@
 												</Button>
 												<LabelDecoration name="НадписьВПростое" id="827">
 													<Height>1</Height>
-													<Font ref="style:NormalTextFont" faceName="Segoe UI Light" height="12" bold="false" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+													<Font ref="style:NormalTextFont" faceName="Segoe UI Light" height="12" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 													<Title formatted="false">
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -437,8 +436,8 @@
 													<Height>2</Height>
 													<MaxHeight>3</MaxHeight>
 													<CommandName>Form.Command.Выход</CommandName>
-													<BackColor>web:PaleTurquoise</BackColor>
-													<Font ref="style:NormalTextFont" faceName="Segoe UI Semibold" height="12" bold="false" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+													<BackColor>web:PaleGoldenrod</BackColor>
+													<Font ref="style:NormalTextFont" faceName="Segoe UI Semibold" height="12" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 													<Picture>
 														<xr:Abs>Picture.png</xr:Abs>
 														<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -454,7 +453,7 @@
 													<ExtendedTooltip name="КнопкаВыходРасширеннаяПодсказка" id="812"/>
 												</Button>
 												<LabelDecoration name="НадписьЗаголовокКнопкаВыход" id="833">
-													<Font ref="style:NormalTextFont" faceName="Segoe UI Light" height="10" bold="false" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+													<Font ref="style:NormalTextFont" faceName="Segoe UI Light" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 													<Title formatted="false">
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -647,6 +646,7 @@
 									<v8:content>Страница отчет</v8:content>
 								</v8:item>
 							</ToolTip>
+							<BackColor>#EBEBEB</BackColor>
 							<ExtendedTooltip name="СтраницаОтчетРасширеннаяПодсказка" id="1120"/>
 							<ChildItems>
 								<UsualGroup name="Группа3" id="1175">
@@ -681,7 +681,7 @@
 													<AutoMaxHeight>false</AutoMaxHeight>
 													<MaxHeight>1</MaxHeight>
 													<CommandName>Form.Command.СбросФильтров</CommandName>
-													<BackColor>web:PaleTurquoise</BackColor>
+													<BackColor>web:PaleGoldenrod</BackColor>
 													<Font ref="style:NormalTextFont" faceName="Segoe UI Semibold" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 													<Title>
 														<v8:item>
@@ -770,7 +770,7 @@
 														<LabelDecoration name="НадписьНаКонсервации" id="1128">
 															<Width>12</Width>
 															<Height>1</Height>
-															<Font ref="style:NormalTextFont" faceName="Segoe UI Light" height="12" bold="false" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+															<Font ref="style:NormalTextFont" faceName="Segoe UI Light" height="12" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 															<Title formatted="false">
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
@@ -794,7 +794,7 @@
 															<Height>2</Height>
 															<MaxHeight>3</MaxHeight>
 															<CommandName>Form.Command.ФильтрПереключить</CommandName>
-															<BackColor>web:PaleTurquoise</BackColor>
+															<BackColor>web:PaleGoldenrod</BackColor>
 															<Font ref="style:NormalTextFont" faceName="Segoe UI Semibold" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 															<Title>
 																<v8:item>
@@ -934,6 +934,7 @@
 													<Height>1</Height>
 													<AutoMaxHeight>false</AutoMaxHeight>
 													<MaxHeight>1</MaxHeight>
+													<Font bold="true" kind="AutoFont"/>
 													<Title formatted="false">
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -951,7 +952,7 @@
 													<Height>2</Height>
 													<MaxHeight>3</MaxHeight>
 													<CommandName>Form.Command.ФильтрУказатьПростой</CommandName>
-													<BackColor>web:PaleTurquoise</BackColor>
+													<BackColor>web:PaleGoldenrod</BackColor>
 													<Font ref="style:NormalTextFont" faceName="Segoe UI Semibold" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 													<Title>
 														<v8:item>
@@ -971,7 +972,7 @@
 													<Height>2</Height>
 													<MaxHeight>3</MaxHeight>
 													<CommandName>Form.Command.ФильтрУказатьПростой</CommandName>
-													<BackColor>web:PaleTurquoise</BackColor>
+													<BackColor>web:PaleGoldenrod</BackColor>
 													<Font ref="style:NormalTextFont" faceName="Segoe UI Semibold" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 													<Title>
 														<v8:item>
@@ -991,7 +992,7 @@
 													<Height>2</Height>
 													<MaxHeight>3</MaxHeight>
 													<CommandName>Form.Command.ФильтрУказатьПростой</CommandName>
-													<BackColor>web:PaleTurquoise</BackColor>
+													<BackColor>web:PaleGoldenrod</BackColor>
 													<Font ref="style:NormalTextFont" faceName="Segoe UI Semibold" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 													<Title>
 														<v8:item>
@@ -1011,7 +1012,7 @@
 													<Height>2</Height>
 													<MaxHeight>3</MaxHeight>
 													<CommandName>Form.Command.ФильтрУказатьПростой</CommandName>
-													<BackColor>web:PaleTurquoise</BackColor>
+													<BackColor>web:PaleGoldenrod</BackColor>
 													<Font ref="style:NormalTextFont" faceName="Segoe UI Semibold" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 													<Title>
 														<v8:item>
@@ -1031,7 +1032,7 @@
 													<Height>2</Height>
 													<MaxHeight>3</MaxHeight>
 													<CommandName>Form.Command.ФильтрУказатьПростой</CommandName>
-													<BackColor>web:PaleTurquoise</BackColor>
+													<BackColor>web:PaleGoldenrod</BackColor>
 													<Font ref="style:NormalTextFont" faceName="Segoe UI Semibold" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 													<Title>
 														<v8:item>
@@ -1051,7 +1052,7 @@
 													<Height>2</Height>
 													<MaxHeight>3</MaxHeight>
 													<CommandName>Form.Command.ФильтрУказатьПростой</CommandName>
-													<BackColor>web:PaleTurquoise</BackColor>
+													<BackColor>web:PaleGoldenrod</BackColor>
 													<Font ref="style:NormalTextFont" faceName="Segoe UI Semibold" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 													<Title>
 														<v8:item>
@@ -1071,7 +1072,7 @@
 													<Height>2</Height>
 													<MaxHeight>3</MaxHeight>
 													<CommandName>Form.Command.ФильтрУказатьПростой</CommandName>
-													<BackColor>web:PaleTurquoise</BackColor>
+													<BackColor>web:PaleGoldenrod</BackColor>
 													<Font ref="style:NormalTextFont" faceName="Segoe UI Semibold" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 													<Title>
 														<v8:item>
@@ -1756,6 +1757,21 @@
 						</v8:StringQualifiers>
 					</Type>
 				</Column>
+				<Column name="ИНН" id="11">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ИНН</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
 			</Columns>
 		</Attribute>
 		<Attribute name="тблДата" id="13">
@@ -2119,6 +2135,21 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя апи производства</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ИНН" id="25">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ИНН</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
