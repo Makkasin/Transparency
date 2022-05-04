@@ -21,7 +21,6 @@
 			<VerticalSpacing>Half</VerticalSpacing>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
-			<BackColor>#31597B</BackColor>
 			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="155"/>
 			<ChildItems>
 				<LabelField name="фНаименование" id="224">
@@ -1032,7 +1031,6 @@
 													<v8:content>Технические характеристики</v8:content>
 												</v8:item>
 											</Title>
-											<TitleTextColor>#FFFFFF</TitleTextColor>
 											<ToolTip>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -1046,48 +1044,42 @@
 												<InputField name="фГарНомер" id="18">
 													<DataPath>фГарНомер</DataPath>
 													<ReadOnly>true</ReadOnly>
-													<TitleTextColor>#DCDCDC</TitleTextColor>
-													<TextColor>#DCDCDC</TextColor>
 													<ContextMenu name="фГарНомерКонтекстноеМеню" id="19"/>
 													<ExtendedTooltip name="фГарНомерРасширеннаяПодсказка" id="20"/>
 												</InputField>
 												<InputField name="фГосНомер" id="9">
 													<DataPath>фГосНомер</DataPath>
 													<ReadOnly>true</ReadOnly>
-													<TitleTextColor>#DCDCDC</TitleTextColor>
-													<TextColor>#DCDCDC</TextColor>
 													<ContextMenu name="фГосНомерКонтекстноеМеню" id="10"/>
 													<ExtendedTooltip name="фГосНомерРасширеннаяПодсказка" id="11"/>
 												</InputField>
 												<InputField name="фVIN" id="3">
 													<DataPath>фVIN</DataPath>
 													<ReadOnly>true</ReadOnly>
-													<TitleTextColor>#DCDCDC</TitleTextColor>
-													<TextColor>#DCDCDC</TextColor>
 													<ContextMenu name="фVINКонтекстноеМеню" id="4"/>
 													<ExtendedTooltip name="фVINРасширеннаяПодсказка" id="5"/>
 												</InputField>
 												<InputField name="фГодВыпуска" id="6">
 													<DataPath>фГодВыпуска</DataPath>
 													<ReadOnly>true</ReadOnly>
-													<TitleTextColor>#DCDCDC</TitleTextColor>
-													<TextColor>#DCDCDC</TextColor>
 													<ContextMenu name="фГодВыпускаКонтекстноеМеню" id="7"/>
 													<ExtendedTooltip name="фГодВыпускаРасширеннаяПодсказка" id="8"/>
 												</InputField>
 												<InputField name="фДатаВводаВЭксплуатацию" id="12">
 													<DataPath>фДатаВводаВЭксплуатацию</DataPath>
 													<ReadOnly>true</ReadOnly>
-													<TitleTextColor>#DCDCDC</TitleTextColor>
-													<TextColor>#DCDCDC</TextColor>
 													<ContextMenu name="фДатаВводаВЭксплуатациюКонтекстноеМеню" id="13"/>
 													<ExtendedTooltip name="фДатаВводаВЭксплуатациюРасширеннаяПодсказка" id="14"/>
+												</InputField>
+												<InputField name="фПробег" id="232">
+													<DataPath>фПробег</DataPath>
+													<ReadOnly>true</ReadOnly>
+													<ContextMenu name="фПробегКонтекстноеМеню" id="233"/>
+													<ExtendedTooltip name="фПробегРасширеннаяПодсказка" id="234"/>
 												</InputField>
 												<InputField name="фДатаВыбытия" id="15">
 													<DataPath>фДатаВыбытия</DataPath>
 													<ReadOnly>true</ReadOnly>
-													<TitleTextColor>#DCDCDC</TitleTextColor>
-													<TextColor>#DCDCDC</TextColor>
 													<ContextMenu name="фДатаВыбытияКонтекстноеМеню" id="16"/>
 													<ExtendedTooltip name="фДатаВыбытияРасширеннаяПодсказка" id="17"/>
 												</InputField>
@@ -1100,7 +1092,6 @@
 													<v8:content>Стоимость</v8:content>
 												</v8:item>
 											</Title>
-											<TitleTextColor>#FFFFFF</TitleTextColor>
 											<ToolTip>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -1114,32 +1105,24 @@
 												<InputField name="фСтоимостьСуммаПервоначальная" id="168">
 													<DataPath>фСтоимостьСуммаПервоначальная</DataPath>
 													<ReadOnly>true</ReadOnly>
-													<TitleTextColor>#DCDCDC</TitleTextColor>
-													<TextColor>#DCDCDC</TextColor>
 													<ContextMenu name="фСтоимостьСуммаПервоначальнаяКонтекстноеМеню" id="169"/>
 													<ExtendedTooltip name="фСтоимостьСуммаПервоначальнаяРасширеннаяПодсказка" id="170"/>
 												</InputField>
 												<InputField name="фСтоимостьСуммаОстаточная" id="171">
 													<DataPath>фСтоимостьСуммаОстаточная</DataPath>
 													<ReadOnly>true</ReadOnly>
-													<TitleTextColor>#DCDCDC</TitleTextColor>
-													<TextColor>#DCDCDC</TextColor>
 													<ContextMenu name="фСтоимостьСуммаОстаточнаяКонтекстноеМеню" id="172"/>
 													<ExtendedTooltip name="фСтоимостьСуммаОстаточнаяРасширеннаяПодсказка" id="173"/>
 												</InputField>
 												<InputField name="фСтоимостьСуммаАмортизация" id="174">
 													<DataPath>фСтоимостьСуммаАмортизация</DataPath>
 													<ReadOnly>true</ReadOnly>
-													<TitleTextColor>#DCDCDC</TitleTextColor>
-													<TextColor>#DCDCDC</TextColor>
 													<ContextMenu name="фСтоимостьСуммаАмортизацияКонтекстноеМеню" id="175"/>
 													<ExtendedTooltip name="фСтоимостьСуммаАмортизацияРасширеннаяПодсказка" id="176"/>
 												</InputField>
 												<InputField name="фСтоимостьДата" id="177">
 													<DataPath>фСтоимостьДата</DataPath>
 													<ReadOnly>true</ReadOnly>
-													<TitleTextColor>#DCDCDC</TitleTextColor>
-													<TextColor>#DCDCDC</TextColor>
 													<ContextMenu name="фСтоимостьДатаКонтекстноеМеню" id="178"/>
 													<ExtendedTooltip name="фСтоимостьДатаРасширеннаяПодсказка" id="179"/>
 												</InputField>
@@ -1152,7 +1135,6 @@
 													<v8:content>Документы ТС</v8:content>
 												</v8:item>
 											</Title>
-											<TitleTextColor>#DCDCDC</TitleTextColor>
 											<ToolTip>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -1472,7 +1454,11 @@
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:Type>cfg:CatalogRef.уатТС</v8:Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
 		<Attribute name="тблБаз" id="12">
@@ -1586,6 +1572,21 @@
 						</v8:item>
 					</Title>
 					<Type/>
+				</Column>
+				<Column name="ИНН" id="9">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ИНН</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
 				</Column>
 			</Columns>
 		</Attribute>
@@ -1796,6 +1797,22 @@
 					<v8:Length>0</v8:Length>
 					<v8:AllowedLength>Variable</v8:AllowedLength>
 				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="фПробег" id="19">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пробег</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
 			</Type>
 		</Attribute>
 	</Attributes>

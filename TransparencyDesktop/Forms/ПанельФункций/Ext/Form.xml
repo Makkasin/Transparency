@@ -46,7 +46,6 @@
 			<VerticalSpacing>None</VerticalSpacing>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
-			<BackColor>#31597B</BackColor>
 			<ExtendedTooltip name="ГруппаГГГРасширеннаяПодсказка" id="405"/>
 			<ChildItems>
 				<UsualGroup name="ГруппаКнопкиСлева" id="803">
@@ -100,7 +99,6 @@
 							<VerticalAlign>Top</VerticalAlign>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
-							<BackColor>#31597B</BackColor>
 							<ExtendedTooltip name="ГруппаГ999РасширеннаяПодсказка" id="806"/>
 							<ChildItems>
 								<UsualGroup name="ГруппаВ30" id="807">
@@ -125,6 +123,140 @@
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаВ30РасширеннаяПодсказка" id="808"/>
 									<ChildItems>
+										<UsualGroup name="ГруппаКнопкаТипыТС" id="1131">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа к111</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа к111</v8:content>
+												</v8:item>
+											</ToolTip>
+											<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+											<GroupVerticalAlign>Center</GroupVerticalAlign>
+											<Group>Vertical</Group>
+											<HorizontalSpacing>None</HorizontalSpacing>
+											<VerticalSpacing>None</VerticalSpacing>
+											<HorizontalAlign>Center</HorizontalAlign>
+											<VerticalAlign>Center</VerticalAlign>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ThroughAlign>DontUse</ThroughAlign>
+											<ExtendedTooltip name="ГруппаКнопкаТипыТСРасширеннаяПодсказка" id="1132"/>
+											<ChildItems>
+												<Button name="юкЛот41" id="1133">
+													<Type>UsualButton</Type>
+													<Representation>Picture</Representation>
+													<Width>6</Width>
+													<Height>2</Height>
+													<MaxHeight>3</MaxHeight>
+													<CommandName>Form.Command.ОткрытьТипыТС</CommandName>
+													<BackColor>web:PaleGoldenrod</BackColor>
+													<Font ref="style:NormalTextFont" faceName="Segoe UI Semibold" height="12" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>=</v8:content>
+														</v8:item>
+													</Title>
+													<Shape>Usual</Shape>
+													<ShapeRepresentation>Always</ShapeRepresentation>
+													<ExtendedTooltip name="юкЛот41РасширеннаяПодсказка" id="1134"/>
+												</Button>
+												<LabelDecoration name="Декорация14" id="1135">
+													<Font ref="style:NormalTextFont" faceName="Segoe UI Light" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+													<Title formatted="false">
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Типы ТС</v8:content>
+														</v8:item>
+													</Title>
+													<HorizontalAlign>Center</HorizontalAlign>
+													<ContextMenu name="Декорация14КонтекстноеМеню" id="1136"/>
+													<ExtendedTooltip name="Декорация14РасширеннаяПодсказка" id="1137"/>
+												</LabelDecoration>
+											</ChildItems>
+										</UsualGroup>
+										<UsualGroup name="грпОрг" id="1224">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Грп орг</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Грп орг</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>Vertical</Group>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="грпОргРасширеннаяПодсказка" id="1225"/>
+										</UsualGroup>
+										<UsualGroup name="ГруппаКнопкаСписокАварийных" id="1138">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа к111</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа к111</v8:content>
+												</v8:item>
+											</ToolTip>
+											<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+											<GroupVerticalAlign>Center</GroupVerticalAlign>
+											<Group>Vertical</Group>
+											<HorizontalSpacing>None</HorizontalSpacing>
+											<VerticalSpacing>None</VerticalSpacing>
+											<HorizontalAlign>Center</HorizontalAlign>
+											<VerticalAlign>Center</VerticalAlign>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ThroughAlign>DontUse</ThroughAlign>
+											<ExtendedTooltip name="ГруппаКнопкаСписокАварийныхРасширеннаяПодсказка" id="1139"/>
+											<ChildItems>
+												<Button name="юкЛот42" id="1140">
+													<Type>UsualButton</Type>
+													<Representation>Picture</Representation>
+													<Width>6</Width>
+													<Height>2</Height>
+													<MaxHeight>3</MaxHeight>
+													<CommandName>Form.Command.ОтчетПоАварийным</CommandName>
+													<BackColor>web:PaleGoldenrod</BackColor>
+													<Font ref="style:NormalTextFont" faceName="Segoe UI Semibold" height="12" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>=</v8:content>
+														</v8:item>
+													</Title>
+													<Shape>Usual</Shape>
+													<ShapeRepresentation>Always</ShapeRepresentation>
+													<ExtendedTooltip name="юкЛот42РасширеннаяПодсказка" id="1141"/>
+												</Button>
+												<LabelDecoration name="Декорация15" id="1142">
+													<Font ref="style:NormalTextFont" faceName="Segoe UI Light" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+													<Title formatted="false">
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Список аварийных</v8:content>
+														</v8:item>
+													</Title>
+													<HorizontalAlign>Center</HorizontalAlign>
+													<ContextMenu name="Декорация15КонтекстноеМеню" id="1143"/>
+													<ExtendedTooltip name="Декорация15РасширеннаяПодсказка" id="1144"/>
+												</LabelDecoration>
+											</ChildItems>
+										</UsualGroup>
 										<UsualGroup name="ГруппаКнопкаНазад" id="813">
 											<Visible>false</Visible>
 											<Title>
@@ -158,10 +290,8 @@
 													<Height>2</Height>
 													<MaxHeight>3</MaxHeight>
 													<CommandName>Form.Command.Назад</CommandName>
-													<TextColor>#FFFFFF</TextColor>
-													<BackColor>#E78A9C</BackColor>
-													<BorderColor>#E78A9C</BorderColor>
-													<Font ref="style:NormalTextFont" faceName="Segoe UI Semibold" height="12" bold="false" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+													<BackColor>web:PaleGoldenrod</BackColor>
+													<Font ref="style:NormalTextFont" faceName="Segoe UI Semibold" height="12" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 													<Picture>
 														<xr:Abs>Picture.png</xr:Abs>
 														<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -178,8 +308,7 @@
 													<ExtendedTooltip name="юкЛот40РасширеннаяПодсказка" id="816"/>
 												</Button>
 												<LabelDecoration name="Декорация6" id="830">
-													<TextColor>#FFFFFF</TextColor>
-													<Font ref="style:NormalTextFont" faceName="Segoe UI Light" height="10" bold="false" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+													<Font ref="style:NormalTextFont" faceName="Segoe UI Light" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 													<Title formatted="false">
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -191,146 +320,6 @@
 													<ExtendedTooltip name="Декорация6РасширеннаяПодсказка" id="832"/>
 												</LabelDecoration>
 											</ChildItems>
-										</UsualGroup>
-										<UsualGroup name="ГруппаКнопкаТипыТС" id="1131">
-											<Title>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Группа к111</v8:content>
-												</v8:item>
-											</Title>
-											<ToolTip>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Группа к111</v8:content>
-												</v8:item>
-											</ToolTip>
-											<GroupHorizontalAlign>Center</GroupHorizontalAlign>
-											<GroupVerticalAlign>Center</GroupVerticalAlign>
-											<Group>Vertical</Group>
-											<HorizontalSpacing>None</HorizontalSpacing>
-											<VerticalSpacing>None</VerticalSpacing>
-											<HorizontalAlign>Center</HorizontalAlign>
-											<VerticalAlign>Center</VerticalAlign>
-											<Representation>None</Representation>
-											<ShowTitle>false</ShowTitle>
-											<ThroughAlign>DontUse</ThroughAlign>
-											<ExtendedTooltip name="ГруппаКнопкаТипыТСРасширеннаяПодсказка" id="1132"/>
-											<ChildItems>
-												<Button name="юкЛот41" id="1133">
-													<Type>UsualButton</Type>
-													<Representation>Picture</Representation>
-													<Width>6</Width>
-													<Height>2</Height>
-													<MaxHeight>3</MaxHeight>
-													<CommandName>Form.Command.ОткрытьТипыТС</CommandName>
-													<TextColor>#FFFFFF</TextColor>
-													<BackColor>#E78A9C</BackColor>
-													<BorderColor>#E78A9C</BorderColor>
-													<Font ref="style:NormalTextFont" faceName="Segoe UI Semibold" height="12" bold="false" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
-													<Title>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content>=</v8:content>
-														</v8:item>
-													</Title>
-													<Shape>Usual</Shape>
-													<ShapeRepresentation>Always</ShapeRepresentation>
-													<ExtendedTooltip name="юкЛот41РасширеннаяПодсказка" id="1134"/>
-												</Button>
-												<LabelDecoration name="Декорация14" id="1135">
-													<TextColor>#FFFFFF</TextColor>
-													<Font ref="style:NormalTextFont" faceName="Segoe UI Light" height="10" bold="false" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
-													<Title formatted="false">
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content>Типы ТС</v8:content>
-														</v8:item>
-													</Title>
-													<HorizontalAlign>Center</HorizontalAlign>
-													<ContextMenu name="Декорация14КонтекстноеМеню" id="1136"/>
-													<ExtendedTooltip name="Декорация14РасширеннаяПодсказка" id="1137"/>
-												</LabelDecoration>
-											</ChildItems>
-										</UsualGroup>
-										<UsualGroup name="ГруппаКнопкаОбновить" id="1138">
-											<Title>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Группа к111</v8:content>
-												</v8:item>
-											</Title>
-											<ToolTip>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Группа к111</v8:content>
-												</v8:item>
-											</ToolTip>
-											<GroupHorizontalAlign>Center</GroupHorizontalAlign>
-											<GroupVerticalAlign>Center</GroupVerticalAlign>
-											<Group>Vertical</Group>
-											<HorizontalSpacing>None</HorizontalSpacing>
-											<VerticalSpacing>None</VerticalSpacing>
-											<HorizontalAlign>Center</HorizontalAlign>
-											<VerticalAlign>Center</VerticalAlign>
-											<Representation>None</Representation>
-											<ShowTitle>false</ShowTitle>
-											<ThroughAlign>DontUse</ThroughAlign>
-											<ExtendedTooltip name="ГруппаКнопкаОбновитьРасширеннаяПодсказка" id="1139"/>
-											<ChildItems>
-												<Button name="юкЛот42" id="1140">
-													<Type>UsualButton</Type>
-													<Representation>Picture</Representation>
-													<Width>6</Width>
-													<Height>2</Height>
-													<MaxHeight>3</MaxHeight>
-													<CommandName>Form.Command.Перезапуск</CommandName>
-													<TextColor>#FFFFFF</TextColor>
-													<BackColor>#E78A9C</BackColor>
-													<BorderColor>#E78A9C</BorderColor>
-													<Font ref="style:NormalTextFont" faceName="Segoe UI Semibold" height="12" bold="false" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
-													<Title>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content>=</v8:content>
-														</v8:item>
-													</Title>
-													<Shape>Usual</Shape>
-													<ShapeRepresentation>Always</ShapeRepresentation>
-													<ExtendedTooltip name="юкЛот42РасширеннаяПодсказка" id="1141"/>
-												</Button>
-												<LabelDecoration name="Декорация15" id="1142">
-													<TextColor>#FFFFFF</TextColor>
-													<Font ref="style:NormalTextFont" faceName="Segoe UI Light" height="10" bold="false" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
-													<Title formatted="false">
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content>Перезапуск</v8:content>
-														</v8:item>
-													</Title>
-													<HorizontalAlign>Center</HorizontalAlign>
-													<ContextMenu name="Декорация15КонтекстноеМеню" id="1143"/>
-													<ExtendedTooltip name="Декорация15РасширеннаяПодсказка" id="1144"/>
-												</LabelDecoration>
-											</ChildItems>
-										</UsualGroup>
-										<UsualGroup name="грпОрг" id="1224">
-											<Title>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Грп орг</v8:content>
-												</v8:item>
-											</Title>
-											<ToolTip>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Грп орг</v8:content>
-												</v8:item>
-											</ToolTip>
-											<Group>Vertical</Group>
-											<Representation>None</Representation>
-											<ShowTitle>false</ShowTitle>
-											<ExtendedTooltip name="грпОргРасширеннаяПодсказка" id="1225"/>
 										</UsualGroup>
 										<LabelDecoration name="Декорация13" id="1112">
 											<AutoMaxWidth>false</AutoMaxWidth>
@@ -382,8 +371,7 @@
 													<Height>2</Height>
 													<MaxHeight>3</MaxHeight>
 													<CommandName>Form.Command.ФильтрПереключить</CommandName>
-													<BackColor>web:DarkSeaGreen</BackColor>
-													<BorderColor>#E78A9C</BorderColor>
+													<BackColor>web:PaleGoldenrod</BackColor>
 													<Font ref="style:NormalTextFont" faceName="Segoe UI Semibold" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 													<Title>
 														<v8:item>
@@ -397,8 +385,7 @@
 												</Button>
 												<LabelDecoration name="НадписьВПростое" id="827">
 													<Height>1</Height>
-													<TextColor>#FFFFFF</TextColor>
-													<Font ref="style:NormalTextFont" faceName="Segoe UI Light" height="12" bold="false" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+													<Font ref="style:NormalTextFont" faceName="Segoe UI Light" height="12" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 													<Title formatted="false">
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -449,10 +436,8 @@
 													<Height>2</Height>
 													<MaxHeight>3</MaxHeight>
 													<CommandName>Form.Command.Выход</CommandName>
-													<TextColor>#FFFFFF</TextColor>
-													<BackColor>#E78A9C</BackColor>
-													<BorderColor>#E78A9C</BorderColor>
-													<Font ref="style:NormalTextFont" faceName="Segoe UI Semibold" height="12" bold="false" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+													<BackColor>web:PaleGoldenrod</BackColor>
+													<Font ref="style:NormalTextFont" faceName="Segoe UI Semibold" height="12" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 													<Picture>
 														<xr:Abs>Picture.png</xr:Abs>
 														<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -468,8 +453,7 @@
 													<ExtendedTooltip name="КнопкаВыходРасширеннаяПодсказка" id="812"/>
 												</Button>
 												<LabelDecoration name="НадписьЗаголовокКнопкаВыход" id="833">
-													<TextColor>#FFFFFF</TextColor>
-													<Font ref="style:NormalTextFont" faceName="Segoe UI Light" height="10" bold="false" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+													<Font ref="style:NormalTextFont" faceName="Segoe UI Light" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 													<Title formatted="false">
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -512,13 +496,13 @@
 					<ChildItems>
 						<LabelDecoration name="Декорация4" id="841">
 							<VerticalStretch>true</VerticalStretch>
-							<BackColor>#29415A</BackColor>
+							<BackColor>#BCD9FF</BackColor>
 							<ContextMenu name="Декорация4КонтекстноеМеню" id="842"/>
 							<ExtendedTooltip name="Декорация4РасширеннаяПодсказка" id="843"/>
 						</LabelDecoration>
 						<LabelDecoration name="Декорация3" id="838">
 							<VerticalStretch>true</VerticalStretch>
-							<BackColor>#5A8EBD</BackColor>
+							<BackColor>#94A6A4</BackColor>
 							<ContextMenu name="Декорация3КонтекстноеМеню" id="839"/>
 							<ExtendedTooltip name="Декорация3РасширеннаяПодсказка" id="840"/>
 						</LabelDecoration>
@@ -556,6 +540,8 @@
 							<ExtendedTooltip name="СтраницаУправлениеРасширеннаяПодсказка" id="1118"/>
 							<ChildItems>
 								<UsualGroup name="Группа1" id="1145">
+									<VerticalStretch>false</VerticalStretch>
+									<Group>AlwaysHorizontal</Group>
 									<Behavior>Collapsible</Behavior>
 									<CollapsedRepresentationTitle>
 										<v8:item>
@@ -567,6 +553,42 @@
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="1146"/>
 									<ChildItems>
+										<Button name="Кнопка1" id="1226">
+											<Type>Hyperlink</Type>
+											<Enabled>false</Enabled>
+											<Width>1</Width>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<MaxWidth>1</MaxWidth>
+											<VerticalStretch>true</VerticalStretch>
+											<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+											<GroupVerticalAlign>Center</GroupVerticalAlign>
+											<CommandName>Form.Command.Заглушка</CommandName>
+											<BackColor>web:Seagreen</BackColor>
+											<BorderColor>#5EFFF8</BorderColor>
+											<Font ref="style:TextFont" height="12" kind="StyleItem"/>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content> </v8:content>
+												</v8:item>
+											</Title>
+											<RepresentationInContextMenu>None</RepresentationInContextMenu>
+											<Shape>Usual</Shape>
+											<ExtendedTooltip name="Кнопка1РасширеннаяПодсказка" id="1227"/>
+										</Button>
+										<LabelDecoration name="Декорация2" id="1228">
+											<Visible>false</Visible>
+											<Width>1</Width>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<MaxWidth>1</MaxWidth>
+											<VerticalStretch>true</VerticalStretch>
+											<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+											<GroupVerticalAlign>Center</GroupVerticalAlign>
+											<VerticalAlign>Center</VerticalAlign>
+											<BackColor>#5EFFF8</BackColor>
+											<ContextMenu name="Декорация2КонтекстноеМеню" id="1229"/>
+											<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="1230"/>
+										</LabelDecoration>
 										<Button name="Кнопка0" id="1050">
 											<Type>UsualButton</Type>
 											<TitleHeight>3</TitleHeight>
@@ -577,8 +599,6 @@
 											<AutoMaxHeight>false</AutoMaxHeight>
 											<MaxHeight>3</MaxHeight>
 											<CommandName>Form.Command.ОткрытьОтчет</CommandName>
-											<TextColor>#FFFFFF</TextColor>
-											<BackColor>web:DeepSkyBlue</BackColor>
 											<BorderColor>#39AEFF</BorderColor>
 											<Font ref="style:NormalTextFont" faceName="Segoe UI Semibold" height="12" bold="false" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 											<Title>
@@ -626,10 +646,12 @@
 									<v8:content>Страница отчет</v8:content>
 								</v8:item>
 							</ToolTip>
+							<BackColor>#EBEBEB</BackColor>
 							<ExtendedTooltip name="СтраницаОтчетРасширеннаяПодсказка" id="1120"/>
 							<ChildItems>
 								<UsualGroup name="Группа3" id="1175">
 									<Group>Vertical</Group>
+									<VerticalSpacing>Half</VerticalSpacing>
 									<Behavior>Collapsible</Behavior>
 									<CollapsedRepresentationTitle>
 										<v8:item>
@@ -659,8 +681,7 @@
 													<AutoMaxHeight>false</AutoMaxHeight>
 													<MaxHeight>1</MaxHeight>
 													<CommandName>Form.Command.СбросФильтров</CommandName>
-													<BackColor>web:DarkSeaGreen</BackColor>
-													<BorderColor>#E78A9C</BorderColor>
+													<BackColor>web:PaleGoldenrod</BackColor>
 													<Font ref="style:NormalTextFont" faceName="Segoe UI Semibold" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 													<Title>
 														<v8:item>
@@ -675,7 +696,6 @@
 												</Button>
 												<InputField name="фФильтрГодВыпускаС" id="1188">
 													<DataPath>фФильтрГодВыпускаС</DataPath>
-													<TitleTextColor>#E7E7E7</TitleTextColor>
 													<TitleFont ref="style:TextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 													<TitleLocation>Left</TitleLocation>
 													<Width>8</Width>
@@ -692,8 +712,6 @@
 															<v8:content>ЧН=; ЧГ=</v8:content>
 														</v8:item>
 													</EditFormat>
-													<BackColor>web:MediumSeaGreen</BackColor>
-													<BorderColor>#E78A9C</BorderColor>
 													<ContextMenu name="фФильтрГодВыпускаСКонтекстноеМеню" id="1189"/>
 													<ExtendedTooltip name="фФильтрГодВыпускаСРасширеннаяПодсказка" id="1190"/>
 													<Events>
@@ -702,7 +720,6 @@
 												</InputField>
 												<InputField name="фФильтрГодВыпускаПо" id="1191">
 													<DataPath>фФильтрГодВыпускаПо</DataPath>
-													<TitleTextColor>#E7E7E7</TitleTextColor>
 													<TitleFont ref="style:TextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 													<TitleLocation>Left</TitleLocation>
 													<Width>8</Width>
@@ -719,8 +736,6 @@
 															<v8:content>ЧН=; ЧГ=</v8:content>
 														</v8:item>
 													</EditFormat>
-													<BackColor>web:MediumSeaGreen</BackColor>
-													<BorderColor>#E78A9C</BorderColor>
 													<ContextMenu name="фФильтрГодВыпускаПоКонтекстноеМеню" id="1192"/>
 													<ExtendedTooltip name="фФильтрГодВыпускаПоРасширеннаяПодсказка" id="1193"/>
 													<Events>
@@ -755,8 +770,7 @@
 														<LabelDecoration name="НадписьНаКонсервации" id="1128">
 															<Width>12</Width>
 															<Height>1</Height>
-															<TextColor>#FFFFFF</TextColor>
-															<Font ref="style:NormalTextFont" faceName="Segoe UI Light" height="12" bold="false" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+															<Font ref="style:NormalTextFont" faceName="Segoe UI Light" height="12" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 															<Title formatted="false">
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
@@ -780,8 +794,7 @@
 															<Height>2</Height>
 															<MaxHeight>3</MaxHeight>
 															<CommandName>Form.Command.ФильтрПереключить</CommandName>
-															<BackColor>web:DarkSeaGreen</BackColor>
-															<BorderColor>#E78A9C</BorderColor>
+															<BackColor>web:PaleGoldenrod</BackColor>
 															<Font ref="style:NormalTextFont" faceName="Segoe UI Semibold" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 															<Title>
 																<v8:item>
@@ -921,7 +934,7 @@
 													<Height>1</Height>
 													<AutoMaxHeight>false</AutoMaxHeight>
 													<MaxHeight>1</MaxHeight>
-													<TextColor>#E7E7E7</TextColor>
+													<Font bold="true" kind="AutoFont"/>
 													<Title formatted="false">
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -939,8 +952,7 @@
 													<Height>2</Height>
 													<MaxHeight>3</MaxHeight>
 													<CommandName>Form.Command.ФильтрУказатьПростой</CommandName>
-													<BackColor>web:DarkSeaGreen</BackColor>
-													<BorderColor>#E78A9C</BorderColor>
+													<BackColor>web:PaleGoldenrod</BackColor>
 													<Font ref="style:NormalTextFont" faceName="Segoe UI Semibold" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 													<Title>
 														<v8:item>
@@ -960,8 +972,7 @@
 													<Height>2</Height>
 													<MaxHeight>3</MaxHeight>
 													<CommandName>Form.Command.ФильтрУказатьПростой</CommandName>
-													<BackColor>web:DarkSeaGreen</BackColor>
-													<BorderColor>#E78A9C</BorderColor>
+													<BackColor>web:PaleGoldenrod</BackColor>
 													<Font ref="style:NormalTextFont" faceName="Segoe UI Semibold" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 													<Title>
 														<v8:item>
@@ -981,8 +992,7 @@
 													<Height>2</Height>
 													<MaxHeight>3</MaxHeight>
 													<CommandName>Form.Command.ФильтрУказатьПростой</CommandName>
-													<BackColor>web:DarkSeaGreen</BackColor>
-													<BorderColor>#E78A9C</BorderColor>
+													<BackColor>web:PaleGoldenrod</BackColor>
 													<Font ref="style:NormalTextFont" faceName="Segoe UI Semibold" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 													<Title>
 														<v8:item>
@@ -1002,8 +1012,7 @@
 													<Height>2</Height>
 													<MaxHeight>3</MaxHeight>
 													<CommandName>Form.Command.ФильтрУказатьПростой</CommandName>
-													<BackColor>web:DarkSeaGreen</BackColor>
-													<BorderColor>#E78A9C</BorderColor>
+													<BackColor>web:PaleGoldenrod</BackColor>
 													<Font ref="style:NormalTextFont" faceName="Segoe UI Semibold" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 													<Title>
 														<v8:item>
@@ -1023,8 +1032,7 @@
 													<Height>2</Height>
 													<MaxHeight>3</MaxHeight>
 													<CommandName>Form.Command.ФильтрУказатьПростой</CommandName>
-													<BackColor>web:DarkSeaGreen</BackColor>
-													<BorderColor>#E78A9C</BorderColor>
+													<BackColor>web:PaleGoldenrod</BackColor>
 													<Font ref="style:NormalTextFont" faceName="Segoe UI Semibold" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 													<Title>
 														<v8:item>
@@ -1044,8 +1052,7 @@
 													<Height>2</Height>
 													<MaxHeight>3</MaxHeight>
 													<CommandName>Form.Command.ФильтрУказатьПростой</CommandName>
-													<BackColor>web:DarkSeaGreen</BackColor>
-													<BorderColor>#E78A9C</BorderColor>
+													<BackColor>web:PaleGoldenrod</BackColor>
 													<Font ref="style:NormalTextFont" faceName="Segoe UI Semibold" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 													<Title>
 														<v8:item>
@@ -1065,8 +1072,7 @@
 													<Height>2</Height>
 													<MaxHeight>3</MaxHeight>
 													<CommandName>Form.Command.ФильтрУказатьПростой</CommandName>
-													<BackColor>web:DarkSeaGreen</BackColor>
-													<BorderColor>#E78A9C</BorderColor>
+													<BackColor>web:PaleGoldenrod</BackColor>
 													<Font ref="style:NormalTextFont" faceName="Segoe UI Semibold" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 													<Title>
 														<v8:item>
@@ -1108,7 +1114,6 @@
 													<HorizontalStretch>true</HorizontalStretch>
 													<VerticalStretch>false</VerticalStretch>
 													<Font ref="style:TextFont" height="1" bold="false" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="55"/>
-													<BackColor>#29415A</BackColor>
 													<BorderColor>#5A8EBD</BorderColor>
 													<Border width="1">
 														<v8ui:style xsi:type="v8ui:ControlBorderType">Underline</v8ui:style>
@@ -1122,9 +1127,8 @@
 								</UsualGroup>
 								<SpreadSheetDocumentField name="фТабличныйДокумент" id="1121">
 									<DataPath>фТабличныйДокумент</DataPath>
-									<TitleTextColor>#FFFFFF</TitleTextColor>
+									<TitleTextColor>web:Snow</TitleTextColor>
 									<TitleLocation>None</TitleLocation>
-									<BorderColor>#31597B</BorderColor>
 									<ContextMenu name="фТабличныйДокументКонтекстноеМеню" id="1122"/>
 									<ExtendedTooltip name="фТабличныйДокументРасширеннаяПодсказка" id="1123"/>
 									<Events>
@@ -1166,24 +1170,337 @@
 					</mxl:languageInfo>
 				</mxl:languageSettings>
 				<mxl:columns>
-					<mxl:size>6</mxl:size>
+					<mxl:size>11</mxl:size>
+					<mxl:columnsItem>
+						<mxl:index>0</mxl:index>
+						<mxl:column>
+							<mxl:formatIndex>1</mxl:formatIndex>
+						</mxl:column>
+					</mxl:columnsItem>
+					<mxl:columnsItem>
+						<mxl:index>1</mxl:index>
+						<mxl:column>
+							<mxl:formatIndex>2</mxl:formatIndex>
+						</mxl:column>
+					</mxl:columnsItem>
+					<mxl:columnsItem>
+						<mxl:index>2</mxl:index>
+						<mxl:column>
+							<mxl:formatIndex>3</mxl:formatIndex>
+						</mxl:column>
+					</mxl:columnsItem>
+					<mxl:columnsItem>
+						<mxl:index>3</mxl:index>
+						<mxl:column>
+							<mxl:formatIndex>4</mxl:formatIndex>
+						</mxl:column>
+					</mxl:columnsItem>
+					<mxl:columnsItem>
+						<mxl:index>4</mxl:index>
+						<mxl:column>
+							<mxl:formatIndex>5</mxl:formatIndex>
+						</mxl:column>
+					</mxl:columnsItem>
+					<mxl:columnsItem>
+						<mxl:index>5</mxl:index>
+						<mxl:column>
+							<mxl:formatIndex>6</mxl:formatIndex>
+						</mxl:column>
+					</mxl:columnsItem>
+					<mxl:columnsItem>
+						<mxl:index>6</mxl:index>
+						<mxl:column>
+							<mxl:formatIndex>7</mxl:formatIndex>
+						</mxl:column>
+					</mxl:columnsItem>
+					<mxl:columnsItem>
+						<mxl:index>7</mxl:index>
+						<mxl:column>
+							<mxl:formatIndex>7</mxl:formatIndex>
+						</mxl:column>
+					</mxl:columnsItem>
+					<mxl:columnsItem>
+						<mxl:index>8</mxl:index>
+						<mxl:column>
+							<mxl:formatIndex>8</mxl:formatIndex>
+						</mxl:column>
+					</mxl:columnsItem>
+					<mxl:columnsItem>
+						<mxl:index>9</mxl:index>
+						<mxl:column>
+							<mxl:formatIndex>8</mxl:formatIndex>
+						</mxl:column>
+					</mxl:columnsItem>
+					<mxl:columnsItem>
+						<mxl:index>10</mxl:index>
+						<mxl:column>
+							<mxl:formatIndex>9</mxl:formatIndex>
+						</mxl:column>
+					</mxl:columnsItem>
 				</mxl:columns>
 				<mxl:rowsItem>
 					<mxl:index>0</mxl:index>
-					<mxl:indexTo>10</mxl:indexTo>
 					<mxl:row>
-						<mxl:empty>true</mxl:empty>
+						<mxl:formatIndex>10</mxl:formatIndex>
+						<mxl:c>
+							<mxl:i>6</mxl:i>
+							<mxl:c>
+								<mxl:f>11</mxl:f>
+							</mxl:c>
+						</mxl:c>
+						<mxl:c>
+							<mxl:c>
+								<mxl:f>11</mxl:f>
+							</mxl:c>
+						</mxl:c>
 					</mxl:row>
 				</mxl:rowsItem>
-				<mxl:defaultFormatIndex>1</mxl:defaultFormatIndex>
+				<mxl:rowsItem>
+					<mxl:index>1</mxl:index>
+					<mxl:row>
+						<mxl:formatIndex>12</mxl:formatIndex>
+						<mxl:c>
+							<mxl:i>6</mxl:i>
+							<mxl:c>
+								<mxl:f>13</mxl:f>
+							</mxl:c>
+						</mxl:c>
+						<mxl:c>
+							<mxl:c>
+								<mxl:f>13</mxl:f>
+							</mxl:c>
+						</mxl:c>
+					</mxl:row>
+				</mxl:rowsItem>
+				<mxl:rowsItem>
+					<mxl:index>2</mxl:index>
+					<mxl:row>
+						<mxl:formatIndex>10</mxl:formatIndex>
+						<mxl:c>
+							<mxl:i>6</mxl:i>
+							<mxl:c>
+								<mxl:f>11</mxl:f>
+							</mxl:c>
+						</mxl:c>
+						<mxl:c>
+							<mxl:c>
+								<mxl:f>11</mxl:f>
+							</mxl:c>
+						</mxl:c>
+					</mxl:row>
+				</mxl:rowsItem>
+				<mxl:rowsItem>
+					<mxl:index>3</mxl:index>
+					<mxl:row>
+						<mxl:formatIndex>10</mxl:formatIndex>
+						<mxl:c>
+							<mxl:i>6</mxl:i>
+							<mxl:c>
+								<mxl:f>11</mxl:f>
+							</mxl:c>
+						</mxl:c>
+						<mxl:c>
+							<mxl:c>
+								<mxl:f>11</mxl:f>
+							</mxl:c>
+						</mxl:c>
+					</mxl:row>
+				</mxl:rowsItem>
+				<mxl:rowsItem>
+					<mxl:index>4</mxl:index>
+					<mxl:row>
+						<mxl:formatIndex>10</mxl:formatIndex>
+						<mxl:c>
+							<mxl:i>6</mxl:i>
+							<mxl:c>
+								<mxl:f>11</mxl:f>
+							</mxl:c>
+						</mxl:c>
+						<mxl:c>
+							<mxl:c>
+								<mxl:f>11</mxl:f>
+							</mxl:c>
+						</mxl:c>
+					</mxl:row>
+				</mxl:rowsItem>
+				<mxl:rowsItem>
+					<mxl:index>5</mxl:index>
+					<mxl:row>
+						<mxl:formatIndex>10</mxl:formatIndex>
+						<mxl:c>
+							<mxl:i>6</mxl:i>
+							<mxl:c>
+								<mxl:f>11</mxl:f>
+							</mxl:c>
+						</mxl:c>
+						<mxl:c>
+							<mxl:c>
+								<mxl:f>11</mxl:f>
+							</mxl:c>
+						</mxl:c>
+					</mxl:row>
+				</mxl:rowsItem>
+				<mxl:rowsItem>
+					<mxl:index>6</mxl:index>
+					<mxl:row>
+						<mxl:formatIndex>10</mxl:formatIndex>
+						<mxl:c>
+							<mxl:i>6</mxl:i>
+							<mxl:c>
+								<mxl:f>11</mxl:f>
+							</mxl:c>
+						</mxl:c>
+						<mxl:c>
+							<mxl:c>
+								<mxl:f>11</mxl:f>
+							</mxl:c>
+						</mxl:c>
+					</mxl:row>
+				</mxl:rowsItem>
+				<mxl:rowsItem>
+					<mxl:index>7</mxl:index>
+					<mxl:row>
+						<mxl:formatIndex>10</mxl:formatIndex>
+						<mxl:c>
+							<mxl:i>6</mxl:i>
+							<mxl:c>
+								<mxl:f>11</mxl:f>
+							</mxl:c>
+						</mxl:c>
+						<mxl:c>
+							<mxl:c>
+								<mxl:f>11</mxl:f>
+							</mxl:c>
+						</mxl:c>
+					</mxl:row>
+				</mxl:rowsItem>
+				<mxl:rowsItem>
+					<mxl:index>8</mxl:index>
+					<mxl:row>
+						<mxl:formatIndex>10</mxl:formatIndex>
+						<mxl:c>
+							<mxl:i>6</mxl:i>
+							<mxl:c>
+								<mxl:f>11</mxl:f>
+							</mxl:c>
+						</mxl:c>
+						<mxl:c>
+							<mxl:c>
+								<mxl:f>11</mxl:f>
+							</mxl:c>
+						</mxl:c>
+					</mxl:row>
+				</mxl:rowsItem>
+				<mxl:rowsItem>
+					<mxl:index>9</mxl:index>
+					<mxl:row>
+						<mxl:formatIndex>10</mxl:formatIndex>
+						<mxl:c>
+							<mxl:i>6</mxl:i>
+							<mxl:c>
+								<mxl:f>11</mxl:f>
+							</mxl:c>
+						</mxl:c>
+						<mxl:c>
+							<mxl:c>
+								<mxl:f>11</mxl:f>
+							</mxl:c>
+						</mxl:c>
+					</mxl:row>
+				</mxl:rowsItem>
+				<mxl:rowsItem>
+					<mxl:index>10</mxl:index>
+					<mxl:row>
+						<mxl:formatIndex>10</mxl:formatIndex>
+						<mxl:c>
+							<mxl:i>6</mxl:i>
+							<mxl:c>
+								<mxl:f>11</mxl:f>
+							</mxl:c>
+						</mxl:c>
+						<mxl:c>
+							<mxl:c>
+								<mxl:f>11</mxl:f>
+							</mxl:c>
+						</mxl:c>
+					</mxl:row>
+				</mxl:rowsItem>
+				<mxl:defaultFormatIndex>14</mxl:defaultFormatIndex>
 				<mxl:height>11</mxl:height>
 				<mxl:vgRows>11</mxl:vgRows>
+				<mxl:font faceName="Microsoft Sans Serif" height="8" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+				<mxl:font faceName="Microsoft Sans Serif" height="8" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 				<mxl:format>
-					<mxl:borderColor>#FFFFFF</mxl:borderColor>
-					<mxl:width>72</mxl:width>
-					<mxl:textColor>#FFFFFF</mxl:textColor>
-					<mxl:backColor>#31597B</mxl:backColor>
+					<mxl:width>24</mxl:width>
 				</mxl:format>
+				<mxl:format>
+					<mxl:width>40</mxl:width>
+				</mxl:format>
+				<mxl:format>
+					<mxl:width>48</mxl:width>
+				</mxl:format>
+				<mxl:format>
+					<mxl:width>240</mxl:width>
+				</mxl:format>
+				<mxl:format>
+					<mxl:width>88</mxl:width>
+				</mxl:format>
+				<mxl:format>
+					<mxl:width>56</mxl:width>
+				</mxl:format>
+				<mxl:format>
+					<mxl:width>72</mxl:width>
+					<mxl:format>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ДФ=dd.MM.yyyy; ДЛФ=D</v8:content>
+						</v8:item>
+					</mxl:format>
+				</mxl:format>
+				<mxl:format>
+					<mxl:width>144</mxl:width>
+				</mxl:format>
+				<mxl:format>
+					<mxl:width>160</mxl:width>
+				</mxl:format>
+				<mxl:format>
+					<mxl:font>0</mxl:font>
+					<mxl:picIndex>1</mxl:picIndex>
+				</mxl:format>
+				<mxl:format>
+					<mxl:format>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ДФ=dd.MM.yyyy; ДЛФ=D</v8:content>
+						</v8:item>
+					</mxl:format>
+				</mxl:format>
+				<mxl:format>
+					<mxl:font>1</mxl:font>
+					<mxl:horizontalAlignment>Center</mxl:horizontalAlignment>
+					<mxl:textPlacement>Wrap</mxl:textPlacement>
+					<mxl:picIndex>1</mxl:picIndex>
+				</mxl:format>
+				<mxl:format>
+					<mxl:font>1</mxl:font>
+					<mxl:horizontalAlignment>Center</mxl:horizontalAlignment>
+					<mxl:textPlacement>Wrap</mxl:textPlacement>
+					<mxl:format>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ДФ=dd.MM.yyyy; ДЛФ=D</v8:content>
+						</v8:item>
+					</mxl:format>
+				</mxl:format>
+				<mxl:format>
+					<mxl:font>0</mxl:font>
+					<mxl:width>72</mxl:width>
+					<mxl:picIndex>1</mxl:picIndex>
+				</mxl:format>
+				<mxl:picture>
+					<mxl:index>0</mxl:index>
+					<mxl:picture/>
+				</mxl:picture>
 			</Settings>
 		</Attribute>
 		<Attribute name="фМакет" id="6">
@@ -1415,6 +1732,36 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Внутренний адрес бух</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ИмяАпиПроизводства" id="10">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Имя апи производства</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ИНН" id="11">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ИНН</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -1783,6 +2130,36 @@
 						</v8:StringQualifiers>
 					</Type>
 				</Column>
+				<Column name="ИмяАпиПроизводства" id="24">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Имя апи производства</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ИНН" id="25">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ИНН</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
 			</Columns>
 		</Attribute>
 		<Attribute name="СтрКолонокТблДата" id="14">
@@ -1948,6 +2325,36 @@
 			</ToolTip>
 			<Action>СбросФильтров</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ОтчетПоАварийным" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отчет по аварийным</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отчет по аварийным</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОтчетПоАварийным</Action>
+		</Command>
+		<Command name="Заглушка" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заглушка</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заглушка</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Заглушка</Action>
 		</Command>
 	</Commands>
 </Form>
